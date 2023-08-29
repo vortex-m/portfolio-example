@@ -4,11 +4,11 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: rgb(236,252,255);
   }
   
   body {
     font-family: "Poppins", sans-serif;
+    background-color: rgb(236,252,255);
   }
   
   html {

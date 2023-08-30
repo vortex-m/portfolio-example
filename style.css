@@ -99,10 +99,9 @@
     position: absolute;
     top: 100%;
     right: 0;
-    border-radius: 25px;
+    border-radius: 15px;
     /*background-color: white;*/
     background-color: rgb(247, 246, 246);
-    /*opacity: .5;*/
     width: fit-content;
     max-height: 0;
     overflow: hidden;

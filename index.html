@@ -395,7 +395,19 @@
       <p>Copyright &#169; 2023 Mayank. All Rights Reserved.</p>
     </footer>
 
-    <script>function toggleMenu() {
+    <!-- Loader -->
+
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    
+
+    <script>
+      $(window).on("load",function(){
+        $(".loadeer-wrapper").fadeOut("slow");
+      });
+      
+      function toggleMenu() {
         const menu = document.querySelector(".menu-links");
         const icon = document.querySelector(".hamburger-icon");
         menu.classList.toggle("open");

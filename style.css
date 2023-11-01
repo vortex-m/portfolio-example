@@ -45,7 +45,7 @@
     vertical-align: top;
     display: inline-block;
     width: 100%;
-    background-color: white;
+    background-color: black;
     animation: loader-inner 2s infinite ease-in;
   }
   
